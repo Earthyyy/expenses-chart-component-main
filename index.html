@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+  <article class="expenses-chart">
+    <section class="balance">
+      <h2>My balance<span class="balance__value">$921.48</span></h6>
+      <img src="./images/logo.svg" alt="website logo">
+    </section>
+
+    <section class="chart">
+      <h2 class="chart__title">Spending - Last 7 days</h2>
+      <div class="chart__area">
+        <div class="bar monday-bar">
+          <p class="day">mon</p>
+          <div id="mon" class="data-serie">
+          </div>
+          <p class="label"></p>
+        </div>
+
+
+        <div class="bar tuesday-bar">
+          <p class="day">tue</p>
+          <div id="tue" class="data-serie">
+          </div>
+          <p class="label"></p>
+          
+        </div>
+        <div class="bar wednesday-bar">
+          <p class="day">wed</p>
+          <div id="wed" class="data-serie">
+          </div>
+          <p class="label">$52.36</p>
+          
+        </div>
+        <div class="bar thursday-bar">
+          <p class="day">thu</p>
+          <div id="thu" class="data-serie">
+          </div>
+          <p class="label"></p>
+          
+        </div>
+        <div class="bar friday-bar">
+          <p class="day">fri</p>
+          <div id="fri" class="data-serie">
+          </div>
+          <p class="label"></p>
+          
+        </div>
+        <div class="bar saturday-bar">
+          <p class="day">sat</p>
+          <div id="sat" class="data-serie">
+          </div>
+          <p class="label"></p>
+          
+        </div>
+        <div class="bar sunday-bar">
+          <p class="day">sun</p>
+          <div id="sun" class="data-serie">
+          </div>
+          <p class="label"></p>
+          
+        </div>
+
+      </div>
+      <hr>
+      <div class="chart__statistics">
+        <h2 class="monthly-expenses">Total this month<span class="numeric-value">$478.33</span></h2>
+        <h2 class="monthly-variation"><span class="percentage-value">+2.4%</span>from last month</h2>
+      </div>
+    </section>
+  </article>
+
+<script type="module" src="./script.js"></script>
+</body>
+</html>
