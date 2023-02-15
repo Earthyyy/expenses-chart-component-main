@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Expenses chart component Solution URL](https://your-solution-url.com)
-- Live Site URL: [Expenses chart component by Earthyy](https://your-live-site-url.com)
+- Solution URL: [Expenses chart component Solution URL](https://www.frontendmentor.io/solutions/expenses-chart-component-solution-FPfbQEJ-KB)
+- Live Site URL: [Expenses chart component by Earthyy](https://earthyy-expenses-chart-component.netlify.app/)
 
 ## My process
 
